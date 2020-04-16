@@ -1,0 +1,92 @@
+/*CBRF label*/
+"PWh-cA-3Qi.text" = "Центральный банк РФ";
+
+/* Class = "UILabel"; text = "Евгений Николаев,\nsangatstudio"; ObjectID = "0zf-0E-Nor"; */
+"0zf-0E-Nor.text" = "Евгений Николаев,\nsangatstudio";
+
+/* Class = "UILabel"; text = "Дизайн:"; ObjectID = "32t-q0-nf8"; */
+"32t-q0-nf8.text" = "Дизайн:";
+
+/* Class = "UILabel"; text = "©2015 anakiapps.com"; ObjectID = "39o-3I-Ewo"; */
+"39o-3I-Ewo.text" = "©2015 anakiapps.com";
+
+/* Class = "UILabel"; text = "Обменные курсы основных российских банков. Значения курсов отслеживаются на официальных сайтах банков в режиме реального времени. "; ObjectID = "AJN-sc-3Ue"; */
+"AJN-sc-3Ue.text" = "Обменные курсы основных российских банков. Значения курсов отслеживаются на официальных сайтах банков в режиме реального времени.";
+
+/* Class = "UILabel"; text = "41.0"; ObjectID = "BeG-l9-96P"; */
+"BeG-l9-96P.text" = "41.0";
+
+/* Class = "UIButton"; normalTitle = "xrates@anakiapps.com"; ObjectID = "Lx5-sm-3Oe"; */
+"Lx5-sm-3Oe.normalTitle" = "xrates@anakiapps.com";
+
+/* Class = "UILabel"; text = "Для получения обновленных курсов потяните Ленту вниз"; ObjectID = "Lyu-0U-c2R"; */
+"Lyu-0U-c2R.text" = "Для получения обновленных курсов потяните Ленту вниз";
+
+/* Class = "UILabel"; text = "Контакты:"; ObjectID = "OBI-5S-nhK"; */
+"OBI-5S-nhK.text" = "Контакты:";
+
+/* Class = "UILabel"; text = "Курсы"; ObjectID = "UUa-t9-R9U"; */
+"UUa-t9-R9U.text" = "Курсы";
+
+/* Class = "UILabel"; text = "О ПРИЛОЖЕНИИ"; ObjectID = "XH9-cL-Dt0"; */
+"XH9-cL-Dt0.text" = "О ПРИЛОЖЕНИИ";
+
+/* Class = "UILabel"; text = "42.0"; ObjectID = "XVc-LA-1eA"; */
+"XVc-LA-1eA.text" = "42.0";
+
+/* Class = "UILabel"; text = "НАСТРОЙКИ"; ObjectID = "Xpd-il-cvY"; */
+"Xpd-il-cvY.text" = "НАСТРОЙКИ";
+
+/* Class = "UILabel"; text = "42.0"; ObjectID = "ZlF-MX-y7s"; */
+"ZlF-MX-y7s.text" = "42.0";
+
+/* Class = "UINavigationItem"; title = "ЛЕНТА"; ObjectID = "fcU-mM-2PD"; */
+"fcU-mM-2PD.title" = "ЛЕНТА";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "g20-TQ-wUH"; */
+"g20-TQ-wUH.text" = "Label";
+
+/* Class = "UILabel"; text = "42.0"; ObjectID = "hLe-8Q-DbF"; */
+"hLe-8Q-DbF.text" = "42.0";
+
+/* Class = "UILabel"; text = "dt"; ObjectID = "hUW-8R-d99"; */
+"hUW-8R-d99.text" = "dt";
+
+/* Class = "UILabel"; text = "€"; ObjectID = "iBM-2f-rCJ"; */
+"iBM-2f-rCJ.text" = "€";
+
+/* Class = "UILabel"; text = "Идея и разработка:"; ObjectID = "mB6-Mh-xEH"; */
+"mB6-Mh-xEH.text" = "Идея и разработка:";
+
+/* Class = "UISegmentedControl"; nlh-Ho-uP7.segmentTitles[0] = "Лента"; ObjectID = "nlh-Ho-uP7"; */
+"nlh-Ho-uP7.segmentTitles[0]" = "Лента";
+
+/* Class = "UISegmentedControl"; nlh-Ho-uP7.segmentTitles[1] = "Актуальные"; ObjectID = "nlh-Ho-uP7"; */
+"nlh-Ho-uP7.segmentTitles[1]" = "Актуальные";
+
+/* Class = "UITabBarItem"; title = "Инфо"; ObjectID = "pAA-EY-MLZ"; */
+"pAA-EY-MLZ.title" = "Инфо";
+
+/* Class = "UILabel"; text = "bank"; ObjectID = "qGy-cG-UBn"; */
+"qGy-cG-UBn.text" = "bank";
+
+/* Class = "UITabBarItem"; title = "Настройки"; ObjectID = "rxs-x5-PEb"; */
+"rxs-x5-PEb.title" = "Настройки";
+
+/* Class = "UILabel"; text = "Алексей Тищенко"; ObjectID = "twJ-tU-3Lj"; */
+"twJ-tU-3Lj.text" = "Алексей Тищенко";
+
+/* Class = "UITabBarItem"; title = "Лента"; ObjectID = "txU-Am-vIB"; */
+"txU-Am-vIB.title" = "Лента";
+
+/* Class = "UIViewController"; title = "НАСТРОЙКИ"; ObjectID = "ucw-Tl-var"; */
+"ucw-Tl-var.title" = "НАСТРОЙКИ";
+
+/* Class = "UIViewController"; title = "ЛЕНТА"; ObjectID = "vXZ-lx-hvc"; */
+"vXZ-lx-hvc.title" = "ЛЕНТА";
+
+/* Class = "UILabel"; text = "$"; ObjectID = "w8d-ea-UFa"; */
+"w8d-ea-UFa.text" = "$";
+
+/* Class = "UILabel"; text = "Для перехода на сайт банка, поиска отделений или публикации курса в социальных сетях, нажмите на строку с текущим курсом"; ObjectID = "zyM-ve-Zj0"; */
+"zyM-ve-Zj0.text" = "Для перехода на сайт банка, поиска отделений или публикации курса в социальных сетях, нажмите на строку с текущим курсом";

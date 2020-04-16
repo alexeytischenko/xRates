@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCA985211BA9BA3F00BD1F61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA985201BA9BA3F00BD1F61 /* main.m */; };
+		BCA985241BA9BA3F00BD1F61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA985231BA9BA3F00BD1F61 /* AppDelegate.m */; };
+		BCA9852A1BA9BA3F00BD1F61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA985281BA9BA3F00BD1F61 /* Main.storyboard */; };
+		BCA9852C1BA9BA3F00BD1F61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA9852B1BA9BA3F00BD1F61 /* Images.xcassets */; };
+		BCA9852F1BA9BA3F00BD1F61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA9852D1BA9BA3F00BD1F61 /* LaunchScreen.xib */; };
+		BCA9853B1BA9BA3F00BD1F61 /* ExchangeRatesRusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA9853A1BA9BA3F00BD1F61 /* ExchangeRatesRusTests.m */; };
+		BCA985481BA9BCC100BD1F61 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA985471BA9BCC100BD1F61 /* AboutViewController.m */; };
+		BCA9854B1BA9BCEB00BD1F61 /* BankRate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA9854A1BA9BCEB00BD1F61 /* BankRate.m */; };
+		BCA9854E1BA9BD0200BD1F61 /* DTView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA9854D1BA9BD0200BD1F61 /* DTView.m */; };
+		BCA985541BA9BD3200BD1F61 /* FeedNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA985531BA9BD3200BD1F61 /* FeedNavigationController.m */; };
+		BCA985571BA9BD4500BD1F61 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA985561BA9BD4500BD1F61 /* OptionsViewController.m */; };
+		BCA9855A1BA9BD5200BD1F61 /* ParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA985591BA9BD5200BD1F61 /* ParseOperation.m */; };
+		BCA9855D1BA9BD6700BD1F61 /* RatesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA9855C1BA9BD6700BD1F61 /* RatesTableViewCell.m */; };
+		BCA985601BA9BD7C00BD1F61 /* XRatesTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA9855F1BA9BD7C00BD1F61 /* XRatesTabBar.m */; };
+		BCA985631BA9BF7400BD1F61 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA985621BA9BF7400BD1F61 /* FeedViewController.m */; };
+		BCA985661BA9C1CF00BD1F61 /* UserPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA985651BA9C1CF00BD1F61 /* UserPrefs.m */; };
+		BCA985681BA9C6B300BD1F61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA985671BA9C6B300BD1F61 /* UIKit.framework */; };
+		BCA9856A1BA9C6CE00BD1F61 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA985691BA9C6CE00BD1F61 /* MessageUI.framework */; };
+		BCA9856C1BA9D3B600BD1F61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA9856B1BA9D3B600BD1F61 /* Foundation.framework */; };
+		BCA9856E1BA9D3D100BD1F61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA9856D1BA9D3D100BD1F61 /* CoreGraphics.framework */; };
+		BCB352481BD00E9300A4A693 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCB3524A1BD00E9300A4A693 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCA985351BA9BA3F00BD1F61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCA985131BA9BA3F00BD1F61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCA9851A1BA9BA3F00BD1F61;
+			remoteInfo = ExchangeRatesRus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A0B03881C03BEF400CA7C0A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		BCA9851B1BA9BA3F00BD1F61 /* ExchangeRatesRus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeRatesRus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA9851F1BA9BA3F00BD1F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA985201BA9BA3F00BD1F61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCA985221BA9BA3F00BD1F61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCA985231BA9BA3F00BD1F61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCA985291BA9BA3F00BD1F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCA9852B1BA9BA3F00BD1F61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCA9852E1BA9BA3F00BD1F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BCA985341BA9BA3F00BD1F61 /* ExchangeRatesRusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExchangeRatesRusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA985391BA9BA3F00BD1F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA9853A1BA9BA3F00BD1F61 /* ExchangeRatesRusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExchangeRatesRusTests.m; sourceTree = "<group>"; };
+		BCA985461BA9BCC100BD1F61 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		BCA985471BA9BCC100BD1F61 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		BCA985491BA9BCEB00BD1F61 /* BankRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankRate.h; sourceTree = "<group>"; };
+		BCA9854A1BA9BCEB00BD1F61 /* BankRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankRate.m; sourceTree = "<group>"; };
+		BCA9854C1BA9BD0200BD1F61 /* DTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTView.h; sourceTree = "<group>"; };
+		BCA9854D1BA9BD0200BD1F61 /* DTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTView.m; sourceTree = "<group>"; };
+		BCA985521BA9BD3200BD1F61 /* FeedNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedNavigationController.h; sourceTree = "<group>"; };
+		BCA985531BA9BD3200BD1F61 /* FeedNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedNavigationController.m; sourceTree = "<group>"; };
+		BCA985551BA9BD4500BD1F61 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		BCA985561BA9BD4500BD1F61 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		BCA985581BA9BD5200BD1F61 /* ParseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseOperation.h; sourceTree = "<group>"; };
+		BCA985591BA9BD5200BD1F61 /* ParseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseOperation.m; sourceTree = "<group>"; };
+		BCA9855B1BA9BD6700BD1F61 /* RatesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatesTableViewCell.h; sourceTree = "<group>"; };
+		BCA9855C1BA9BD6700BD1F61 /* RatesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatesTableViewCell.m; sourceTree = "<group>"; };
+		BCA9855E1BA9BD7C00BD1F61 /* XRatesTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRatesTabBar.h; sourceTree = "<group>"; };
+		BCA9855F1BA9BD7C00BD1F61 /* XRatesTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRatesTabBar.m; sourceTree = "<group>"; };
+		BCA985611BA9BF7400BD1F61 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		BCA985621BA9BF7400BD1F61 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		BCA985641BA9C1CF00BD1F61 /* UserPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPrefs.h; sourceTree = "<group>"; };
+		BCA985651BA9C1CF00BD1F61 /* UserPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPrefs.m; sourceTree = "<group>"; };
+		BCA985671BA9C6B300BD1F61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCA985691BA9C6CE00BD1F61 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		BCA9856B1BA9D3B600BD1F61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCA9856D1BA9D3D100BD1F61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCB352491BD00E9300A4A693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCB3524B1BD00E9800A4A693 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA985181BA9BA3F00BD1F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA9856E1BA9D3D100BD1F61 /* CoreGraphics.framework in Frameworks */,
+				BCA9856C1BA9D3B600BD1F61 /* Foundation.framework in Frameworks */,
+				BCA9856A1BA9C6CE00BD1F61 /* MessageUI.framework in Frameworks */,
+				BCA985681BA9C6B300BD1F61 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA985311BA9BA3F00BD1F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCA985121BA9BA3F00BD1F61 = {
+			isa = PBXGroup;
+			children = (
+				BCA9851D1BA9BA3F00BD1F61 /* ExchangeRatesRus */,
+				BCA985371BA9BA3F00BD1F61 /* ExchangeRatesRusTests */,
+				BCA9851C1BA9BA3F00BD1F61 /* Products */,
+				BCA9856D1BA9D3D100BD1F61 /* CoreGraphics.framework */,
+				BCA9856B1BA9D3B600BD1F61 /* Foundation.framework */,
+				BCA985671BA9C6B300BD1F61 /* UIKit.framework */,
+				BCA985691BA9C6CE00BD1F61 /* MessageUI.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA9851C1BA9BA3F00BD1F61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA9851B1BA9BA3F00BD1F61 /* ExchangeRatesRus.app */,
+				BCA985341BA9BA3F00BD1F61 /* ExchangeRatesRusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCA9851D1BA9BA3F00BD1F61 /* ExchangeRatesRus */ = {
+			isa = PBXGroup;
+			children = (
+				BCA985611BA9BF7400BD1F61 /* FeedViewController.h */,
+				BCA985621BA9BF7400BD1F61 /* FeedViewController.m */,
+				BCA985551BA9BD4500BD1F61 /* OptionsViewController.h */,
+				BCA985561BA9BD4500BD1F61 /* OptionsViewController.m */,
+				BCA985461BA9BCC100BD1F61 /* AboutViewController.h */,
+				BCA985471BA9BCC100BD1F61 /* AboutViewController.m */,
+				BCA985451BA9BC4800BD1F61 /* Views */,
+				BCA985441BA9BC1C00BD1F61 /* Model */,
+				BCA985281BA9BA3F00BD1F61 /* Main.storyboard */,
+				BCA9852B1BA9BA3F00BD1F61 /* Images.xcassets */,
+				BCA9852D1BA9BA3F00BD1F61 /* LaunchScreen.xib */,
+				BCA9851E1BA9BA3F00BD1F61 /* Supporting Files */,
+			);
+			path = ExchangeRatesRus;
+			sourceTree = "<group>";
+		};
+		BCA9851E1BA9BA3F00BD1F61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCA985221BA9BA3F00BD1F61 /* AppDelegate.h */,
+				BCA985231BA9BA3F00BD1F61 /* AppDelegate.m */,
+				BCA9851F1BA9BA3F00BD1F61 /* Info.plist */,
+				BCB3524A1BD00E9300A4A693 /* Localizable.strings */,
+				BCA985201BA9BA3F00BD1F61 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCA985371BA9BA3F00BD1F61 /* ExchangeRatesRusTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCA9853A1BA9BA3F00BD1F61 /* ExchangeRatesRusTests.m */,
+				BCA985381BA9BA3F00BD1F61 /* Supporting Files */,
+			);
+			path = ExchangeRatesRusTests;
+			sourceTree = "<group>";
+		};
+		BCA985381BA9BA3F00BD1F61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCA985391BA9BA3F00BD1F61 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCA985441BA9BC1C00BD1F61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCA985641BA9C1CF00BD1F61 /* UserPrefs.h */,
+				BCA985651BA9C1CF00BD1F61 /* UserPrefs.m */,
+				BCA985581BA9BD5200BD1F61 /* ParseOperation.h */,
+				BCA985591BA9BD5200BD1F61 /* ParseOperation.m */,
+				BCA985491BA9BCEB00BD1F61 /* BankRate.h */,
+				BCA9854A1BA9BCEB00BD1F61 /* BankRate.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BCA985451BA9BC4800BD1F61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCA9855E1BA9BD7C00BD1F61 /* XRatesTabBar.h */,
+				BCA9855F1BA9BD7C00BD1F61 /* XRatesTabBar.m */,
+				BCA9855B1BA9BD6700BD1F61 /* RatesTableViewCell.h */,
+				BCA9855C1BA9BD6700BD1F61 /* RatesTableViewCell.m */,
+				BCA985521BA9BD3200BD1F61 /* FeedNavigationController.h */,
+				BCA985531BA9BD3200BD1F61 /* FeedNavigationController.m */,
+				BCA9854C1BA9BD0200BD1F61 /* DTView.h */,
+				BCA9854D1BA9BD0200BD1F61 /* DTView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA9851A1BA9BA3F00BD1F61 /* ExchangeRatesRus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA9853E1BA9BA3F00BD1F61 /* Build configuration list for PBXNativeTarget "ExchangeRatesRus" */;
+			buildPhases = (
+				BCA985171BA9BA3F00BD1F61 /* Sources */,
+				BCA985181BA9BA3F00BD1F61 /* Frameworks */,
+				BCA985191BA9BA3F00BD1F61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExchangeRatesRus;
+			productName = ExchangeRatesRus;
+			productReference = BCA9851B1BA9BA3F00BD1F61 /* ExchangeRatesRus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCA985331BA9BA3F00BD1F61 /* ExchangeRatesRusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA985411BA9BA3F00BD1F61 /* Build configuration list for PBXNativeTarget "ExchangeRatesRusTests" */;
+			buildPhases = (
+				BCA985301BA9BA3F00BD1F61 /* Sources */,
+				BCA985311BA9BA3F00BD1F61 /* Frameworks */,
+				BCA985321BA9BA3F00BD1F61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCA985361BA9BA3F00BD1F61 /* PBXTargetDependency */,
+			);
+			name = ExchangeRatesRusTests;
+			productName = ExchangeRatesRusTests;
+			productReference = BCA985341BA9BA3F00BD1F61 /* ExchangeRatesRusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA985131BA9BA3F00BD1F61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Алексей Тищенко";
+				TargetAttributes = {
+					BCA9851A1BA9BA3F00BD1F61 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = W2XCGQE9GP;
+					};
+					BCA985331BA9BA3F00BD1F61 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BCA9851A1BA9BA3F00BD1F61;
+					};
+				};
+			};
+			buildConfigurationList = BCA985161BA9BA3F00BD1F61 /* Build configuration list for PBXProject "ExchangeRatesRus" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = BCA985121BA9BA3F00BD1F61;
+			productRefGroup = BCA9851C1BA9BA3F00BD1F61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA9851A1BA9BA3F00BD1F61 /* ExchangeRatesRus */,
+				BCA985331BA9BA3F00BD1F61 /* ExchangeRatesRusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCA985191BA9BA3F00BD1F61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA9852A1BA9BA3F00BD1F61 /* Main.storyboard in Resources */,
+				BCB352481BD00E9300A4A693 /* Localizable.strings in Resources */,
+				BCA9852F1BA9BA3F00BD1F61 /* LaunchScreen.xib in Resources */,
+				BCA9852C1BA9BA3F00BD1F61 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA985321BA9BA3F00BD1F61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA985171BA9BA3F00BD1F61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA985601BA9BD7C00BD1F61 /* XRatesTabBar.m in Sources */,
+				BCA985631BA9BF7400BD1F61 /* FeedViewController.m in Sources */,
+				BCA9855D1BA9BD6700BD1F61 /* RatesTableViewCell.m in Sources */,
+				BCA985241BA9BA3F00BD1F61 /* AppDelegate.m in Sources */,
+				BCA9854E1BA9BD0200BD1F61 /* DTView.m in Sources */,
+				BCA9854B1BA9BCEB00BD1F61 /* BankRate.m in Sources */,
+				BCA9855A1BA9BD5200BD1F61 /* ParseOperation.m in Sources */,
+				BCA985541BA9BD3200BD1F61 /* FeedNavigationController.m in Sources */,
+				BCA985481BA9BCC100BD1F61 /* AboutViewController.m in Sources */,
+				BCA985661BA9C1CF00BD1F61 /* UserPrefs.m in Sources */,
+				BCA985211BA9BA3F00BD1F61 /* main.m in Sources */,
+				BCA985571BA9BD4500BD1F61 /* OptionsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA985301BA9BA3F00BD1F61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA9853B1BA9BA3F00BD1F61 /* ExchangeRatesRusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCA985361BA9BA3F00BD1F61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCA9851A1BA9BA3F00BD1F61 /* ExchangeRatesRus */;
+			targetProxy = BCA985351BA9BA3F00BD1F61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCA985281BA9BA3F00BD1F61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA985291BA9BA3F00BD1F61 /* Base */,
+				8A0B03881C03BEF400CA7C0A /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCA9852D1BA9BA3F00BD1F61 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA9852E1BA9BA3F00BD1F61 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		BCB3524A1BD00E9300A4A693 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCB352491BD00E9300A4A693 /* Base */,
+				BCB3524B1BD00E9800A4A693 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCA9853C1BA9BA3F00BD1F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCA9853D1BA9BA3F00BD1F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCA9853F1BA9BA3F00BD1F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ExchangeRatesRus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anakiapps.ExchangeRatesRus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BCA985401BA9BA3F00BD1F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ExchangeRatesRus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anakiapps.ExchangeRatesRus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BCA985421BA9BA3F00BD1F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ExchangeRatesRusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "anakiapps.com.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExchangeRatesRus.app/ExchangeRatesRus";
+			};
+			name = Debug;
+		};
+		BCA985431BA9BA3F00BD1F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ExchangeRatesRusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "anakiapps.com.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExchangeRatesRus.app/ExchangeRatesRus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA985161BA9BA3F00BD1F61 /* Build configuration list for PBXProject "ExchangeRatesRus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA9853C1BA9BA3F00BD1F61 /* Debug */,
+				BCA9853D1BA9BA3F00BD1F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA9853E1BA9BA3F00BD1F61 /* Build configuration list for PBXNativeTarget "ExchangeRatesRus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA9853F1BA9BA3F00BD1F61 /* Debug */,
+				BCA985401BA9BA3F00BD1F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA985411BA9BA3F00BD1F61 /* Build configuration list for PBXNativeTarget "ExchangeRatesRusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA985421BA9BA3F00BD1F61 /* Debug */,
+				BCA985431BA9BA3F00BD1F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCA985131BA9BA3F00BD1F61 /* Project object */;
+}
