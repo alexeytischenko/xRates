@@ -1,5 +1,5 @@
 # XRates App.
-Shows exchange rates of several russian banks.
+Shows exchange rates of some major russian banks.
 Uses remote sever as a datasource.
 Written in Objective-C
 
